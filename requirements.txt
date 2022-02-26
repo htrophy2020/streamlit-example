@@ -1,7 +1,7 @@
 datetime
 pandas
 pystan
-fbprophet
+prophet
 plotly
 pandas
 streamlit
