@@ -1,4 +1,6 @@
-altair
+datetime
+fbprophet
+plotly
 pandas
 streamlit
 yfinance
