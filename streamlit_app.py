@@ -16,7 +16,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 st.title("Option Time Waves - Future")
 
 stocks = ("AAPL","GOOG","MSFT","XOM","INTC","IBM","MAR","CSCO")
-selected_stocks = st.selectbox(Select dataset for prediction", stocks)
+selected_stocks = st.selectbox("Select dataset for prediction", stocks)
 
 n_years = st.slider("Years of prediction", 1, 4)
 period = n_years * 365
