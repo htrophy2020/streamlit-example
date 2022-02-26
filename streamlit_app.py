@@ -13,7 +13,7 @@ from plotly import graph_objs as go
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.title(Option Time Waves Future")
+st.title("Option Time Waves - Future")
 
 stocks = ("AAPL","GOOG","MSFT","XOM","INTC","IBM","MAR","CSCO")
 selected_stocks = st.selectbox(Select dataset for prediction", stocks)
